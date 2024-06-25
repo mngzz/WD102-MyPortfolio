@@ -10,6 +10,7 @@ body {
   font-family: "Quicksand";
 }
 
+/* NAVBAR */
 .navbar-background-color {
   border-top: 2px solid #000000;
   border-bottom: 2px solid #000000;
@@ -117,6 +118,20 @@ h2 {
   padding: 10px;
 }
 
+.project-bg-transparent {
+  background-color: #c8c8c800;
+}
+
+/* testimonials */
+
+.card-img-testimonials img {
+  filter: drop-shadow(0 4px 8px rgba(55, 49, 49, 0.779));
+}
+
+footer {
+  height: 5vh;
+}
+
 @media screen and (min-width: 400px) and (max-width: 700px) {
   .p-about {
     font-size: 17px;
@@ -124,14 +139,24 @@ h2 {
   .message-text {
     width: 400px;
   }
-}
-footer {
-  background-color: #000000;
-  color: white;
-  font-size: 20px;
-  height: 5vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+
+  .grid-logo .logo-overlay span {
+    font-size: 10px;
+    color: #ffffff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    background-color: #000000;
+    padding: 5px;
+  }
+
+  footer {
+    background-color: #000000;
+    color: white;
+    font-size: 10px;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
 }
