@@ -133,6 +133,21 @@ footer {
 }
 
 @media screen and (min-width: 400px) and (max-width: 700px) {
+  .col-hero-section-1 img {
+    width: 40%;
+  }
+
+  .col-hero-section-2 p,
+  h2,
+  span,
+  a {
+    text-align: center;
+  }
+
+  .col-hero-section-2 {
+    margin-top: 30px;
+  }
+
   .p-about {
     font-size: 17px;
   }
